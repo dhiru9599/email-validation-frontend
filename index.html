@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Email Validator</title>
+</head>
+<body>
+    <form id="email-form">
+        <textarea name="emails" id="emails" cols="50" rows="10" placeholder="Enter Emails separated by comma..."></textarea>
+        <br>
+        <button type="submit">Save</button>
+    </form>
+
+    <div class="email-div">
+        <div class="valid-div">
+            <h3>Valid Emails</h3>
+            <ol class="valid-list" id="valid-emails-list">
+
+            </ol>
+        </div>
+        <div class="invalid-div">
+            <h3>Invalid Emails</h3>
+            <ol class="invalid-list" id="invalid-emails-list">
+
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
